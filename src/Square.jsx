@@ -14,6 +14,7 @@ const Square = props => {
       }
     }
   };
+
   return (
     <div className="square" onClick={handleClick}>
       {props.squareValue === "O" ? (
